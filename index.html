@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+    <title>虫虫涂鸦</title>
+</head>
+<body>
+    <canvas id="biubiu" class="biubiu"></canvas>
+    <div class="tool">
+        <svg class="icon active" id="pen">
+            <use xlink:href="#icon-pen"></use>
+        </svg>
+        <svg class="icon" id="eraser">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg class="icon" id="save">
+            <use xlink:href="#icon-save"></use>
+        </svg>
+        <svg class="icon" id="bin">
+            <use xlink:href="#icon-bin"></use>
+        </svg>
+    </div>
+    <div class="color">
+        <ul>
+            <li id="black" class="black"></li>
+            <li id="green" class="green"></li>
+            <li id="purple" class="purple"></li>
+        </ul>
+        <ul>
+            <li id="red" class="red"></li>
+            <li id="blue" class="blue"></li>
+            <li id="yellow" class="yellow"></li>
+        </ul>        
+    </div>
+    <div class="level">
+        <ul>
+            <li class="level_1"></li>
+            <li class="level_2"></li>
+            <li class="level_3"></li>
+
+        </ul>
+    </div>
+    
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="//at.alicdn.com/t/font_1107695_w61g445ucb.js"></script>
+<script src="./main.js"></script>
+</html>

@@ -1,0 +1,100 @@
+
+*{
+ margin: 0;padding: 0   
+}
+ul,li{
+    list-style: none
+}
+.biubiu{
+    background: white;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.tool{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.color{
+    margin-top: 5px;
+    position: fixed;
+    top: 0;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+}
+.color ul{
+    display: flex;
+}
+.color ul> li{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.6);
+    margin: 2px;
+}
+
+.red{
+    background-color: #ce2c40;
+}
+.blue{
+    background-color: #5649ff;
+}
+.yellow{
+    background-color: #f7f508;
+}
+.black{
+    background-color: #000
+}
+.green{
+    background-color: #35ff35
+}
+.purple{
+    background-color: #8352a3
+}
+
+
+/* pen and eraser */
+.tool{
+    margin-top: 15px;
+}
+.icon{
+    margin: 0 5px;
+    transition: all 0.2s
+}
+.icon.active{
+    color: red;
+    transform: scale(1.2)
+}
+
+/* 画笔粗细 */
+.level{
+    position: fixed;
+    top: 0;
+    left:250px;
+    height: 50px;
+}
+.level ul{
+    display:flex;
+}
+.level >ul>li{
+    margin-right:5px;
+    margin-left:5px;
+    height: 10px;
+    width:20px;
+    
+}
+.level_1{
+    border-top: 2px solid black;
+    margin-top:25px;
+    
+}
+.level_2{
+    border-top: 4px solid black;
+    margin-top:24px;
+}
+.level_3{
+    border-top: 8px solid black;
+    margin-top:22px;
+}
