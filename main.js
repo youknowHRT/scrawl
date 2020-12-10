@@ -17,6 +17,7 @@ var eraserEnable = false
 // 特性检测
 if (kobe.ontouchstart !== undefined) {
   kobe.ontouchstart = function (a) {
+    a.preventDefault()
     using = true
     if (using) {
       x = a.touches[0].clientX
